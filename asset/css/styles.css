@@ -1,0 +1,692 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Source Sans Pro ExtraLight Italic'), local('SourceSansPro-ExtraLightItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSds18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Source Sans Pro Light Italic'), local('SourceSansPro-LightItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkids18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCds18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSds18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Source Sans Pro Black Italic'), local('SourceSansPro-BlackItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklyds18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdr.ttf) format('truetype');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 0;
+}
+.prelative.container {
+  max-width: 100%;
+  padding: 0 135px;
+}
+.prelative.container2 {
+  max-width: 1010px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+.title-content h3 {
+  font-size: 60px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+  text-align: center;
+}
+.arrow {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.arrow img {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+section.home-sec-1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+section.home-sec-1 .image.atas {
+  margin-top: 30px;
+}
+section.home-sec-1 .box-content {
+  padding-left: 10px;
+}
+section.home-sec-1 .box-content h4 {
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+}
+section.home-sec-1 .box-content p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #393939;
+}
+section.home-sec-2 {
+  background: #028496;
+}
+section.home-sec-2 .prelative.container2 {
+  display: table;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+}
+section.home-sec-2 .prelative.container2 .box-content {
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+section.home-sec-2 .prelative.container2 .box-content h5 {
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+section.home-sec-2 .prelative.container2 .box-content p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+section.home-sec-2 .prelative.container2 .box-content button {
+  width: 170px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #01a3c8;
+  border: none;
+  cursor: pointer;
+}
+section.home-sec-3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+section.home-sec-3 .box-content {
+  margin-bottom: 80px;
+}
+section.home-sec-3 .box-content img {
+  margin-bottom: 20px;
+}
+section.home-sec-3 .box-content h5 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+}
+section.home-sec-3 .box-content p {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #393939;
+}
+.box-content2-yeayyy {
+  background: #028496;
+  height: 235px;
+  padding: 30px 50px 50px 25px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.box-content2-yeayyy i {
+  font-size: 60px;
+  color: #ffffff;
+}
+.box-content2-yeayyy h6 {
+  font-size: 36px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+.box-content2-yeayyy p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.box-content2-yeayyy:hover {
+  background: #f4f4f4;
+  height: 235px;
+  padding: 30px 50px 50px 25px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.box-content2-yeayyy:hover i {
+  font-size: 60px;
+  color: #028496;
+}
+.box-content2-yeayyy:hover h6 {
+  font-size: 36px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+}
+.box-content2-yeayyy:hover p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+}
+section.home-sec-4 {
+  background: #028496;
+  height: 450px;
+}
+section.home-sec-4 img {
+  margin-top: -20px;
+}
+section.home-sec-4 .content h5 {
+  margin-top: 35px;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+section.home-sec-4 .content p {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 15px;
+}
+section.home-sec-4 .box-content {
+  margin-top: 35px;
+  background-color: #ffffff;
+  height: 380px;
+}
+section.home-sec-4 .box-content .atas {
+  height: 60px;
+  background-color: #e4e4e4;
+  padding: 15px 25px;
+}
+section.home-sec-4 .box-content .atas i {
+  font-size: 24px;
+  color: #393939;
+  display: inline-block;
+}
+section.home-sec-4 .box-content .atas p {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #393939;
+  margin-left: 15px;
+}
+section.home-sec-4 .box-content form {
+  padding: 0 25px;
+  margin-top: 30px;
+}
+section.home-sec-4 .box-content form label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #393939;
+}
+section.home-sec-4 .box-content form label.label2 {
+  margin-top: 20px;
+}
+section.home-sec-4 .box-content form select {
+  border-radius: 4px;
+  border: solid 1px #d1d1d1;
+  background-color: #ececec;
+  font-size: 14px;
+  color: #888888;
+}
+section.home-sec-4 .box-content form button {
+  margin-top: 30px;
+  width: 100%;
+  height: 61px;
+  border-radius: 4px;
+  background-color: #028496;
+  font-size: 30px;
+}
+section.home-sec-5 {
+  margin-top: 100px;
+}
+section.home-sec-5 .box-content {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+section.home-sec-5 .box-content h6 {
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.19px;
+  text-align: center;
+  color: #028496;
+}
+section.home-sec-5 .box-content p {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.12px;
+  text-align: center;
+  color: #393939;
+}
+section.home-sec-5 button {
+  width: 300px;
+  height: 60px;
+  border-radius: 4px;
+  border: solid 1px #028496;
+  background-color: #ffffff;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+  margin: 70px auto 73px;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+section.home-sec-5 .ht {
+  height: 1px;
+  border: solid 1px #028496;
+  width: 100%;
+}
+section.home-sec-6 {
+  margin-top: 35px;
+}
+section.home-sec-6 .title h5 {
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+}
+section.home-sec-6 .paginationclass {
+  float: right;
+  margin-bottom: 45px;
+}
+section.home-sec-6 .paginationclass .rounded {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  background-color: #028496;
+}
+section.home-sec-6 .paginationclass .rounded i {
+  font-size: 19px;
+  color: #ffffff;
+  padding: 7px 9px;
+}
+section.home-sec-6 .box-content {
+  height: 432px;
+  border-radius: 4px;
+  border: solid 1px #dcdcdc;
+  background-color: #f8f8f8;
+  padding: 15px;
+}
+section.home-sec-6 .box-content h5 {
+  margin-top: 23px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.19px;
+  color: #028496;
+}
+section.home-sec-6 .box-content p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.12px;
+  color: #393939;
+}
+section.cover {
+  background: #028496;
+}
+section.cover .prelative.container2 {
+  display: table;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+}
+section.cover .prelative.container2 .box-content {
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+section.cover .prelative.container2 .box-content h5 {
+  font-size: 60px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+section.cover .prelative.container2 .box-content p {
+  margin-top: 18px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+section.cover .prelative.container2 .box-content button {
+  width: 170px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #01a3c8;
+  border: none;
+  cursor: pointer;
+}
+section.layanan-sec-1 {
+  margin-top: 100px;
+}
+section.layanan-sec-1 .box-content {
+  margin-top: 50px;
+}
+section.layanan-sec-1 .box-content h5 {
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+}
+section.layanan-sec-1 .box-content p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #393939;
+}
+section.layanan-sec-1 .box-content button {
+  cursor: pointer;
+  width: 170px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #028496;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+section.layanan-sec-2 {
+  margin: 100px 0;
+}
+.layanan-top {
+  padding-top: 50px;
+}
+section.artikel-sec-1 {
+  margin-top: 100px;
+}
+section.artikel-sec-1 .sidebar-art h5 {
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #028496;
+}
+section.artikel-sec-1 .sidebar-art ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 25px;
+  display: block;
+}
+section.artikel-sec-1 .sidebar-art ul li a {
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  display: block;
+  border-bottom: solid 1px #979797;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #393939;
+}
+section.artikel-sec-1 .box-content {
+  height: 432px;
+  border-radius: 4px;
+  border: solid 1px #dcdcdc;
+  background-color: #f8f8f8;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+section.artikel-sec-1 .box-content h5 {
+  margin-top: 23px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.19px;
+  color: #028496;
+}
+section.artikel-sec-1 .box-content p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.12px;
+  color: #393939;
+}
+section.perawat-sec-1 {
+  margin: 100px 0;
+}
+section.perawat-sec-1 .box-content {
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+section.perawat-sec-1 .box-content h5 {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #028496;
+}
+section.perawat-sec-1 .box-content p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #393939;
+}
+section.perawat-sec-1 .box-content button {
+  margin-top: 20px;
+  width: 170px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #028496;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
