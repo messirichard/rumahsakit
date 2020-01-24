@@ -20,8 +20,82 @@ h1,h2,h3,h4,h5,h6,p,a{
     position: relative;
 }
 
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    height: 60px;
+    background: #fff !important;
+    li{
+        a{
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #505050;
+        }
+    }
+    li.button-butt{
+        width: 100px;
+        height: 35px;
+        border-radius: 4px;
+        background-color: #028496;
+        padding-left: 14px;
+        a{
+            margin-top: -2px;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ffffff;
+        }
+    }
+}
+
 a:hover,button:hover{
     cursor: pointer;
+}
+
+.carousel-caption{
+    background: #fff;
+    width: 370px;
+    height: 290px;
+    border-top: 20px solid #028496;
+    border-radius: 4px;
+    padding: 26px 20px;
+    top: 30%;
+    h4{
+        font-size: 36px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #028496;
+        text-align: left;
+    }
+    p{
+        margin-top: 15px;
+        text-align: left;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #393939;
+    }
 }
 
 .title-content{
@@ -633,4 +707,122 @@ section.perawat-sec-1{
             color: #ffffff;
         }
     }
+}
+
+section.footer{
+    margin-top: 100px;
+    background: #f8f8f8;
+    .image{
+        margin-bottom: 55px;
+        margin-top: 30px;
+    }
+    .content{
+        h5{
+            font-size: 20px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.5px;
+            color: #393939;
+            margin-bottom: 20px;
+        }
+        ul.sec-1{
+            list-style: none;
+            padding-left: 0;
+            max-width: 230px;
+            li{
+                margin-top: 15px;
+                font-size: 18px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.5px;
+                color: #393939;
+            }
+        }
+        ul.sec-2{
+            list-style: none;
+            padding-left: 0;
+            li{
+                margin-top: 15px;
+                font-size: 18px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.5px;
+                color: #393939;
+            }
+        }
+        .medsos{
+            margin-bottom: 40px;
+        }
+        ul.sec-3{
+            list-style: none;
+            padding-left: 0;
+            li{
+                margin-top: 15px;
+                span{
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.5;
+                    letter-spacing: 1.7px;
+                    color: #393939;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    .content1{
+        width: 370px;
+        h5{
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.5px;
+            color: #393939;
+            margin-bottom: 20px;
+        }
+        input{
+            margin-top: 20px;
+            width: 368px;
+            display: block;
+            height: 50px;
+            border-radius: 4px;
+            border: solid 1px #cccccc;
+            background-color: #e4e4e4;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.05px;
+            color: #505050;
+            padding: 15px 30px;
+        }
+        button{
+            margin-top: 20px;
+            width: 368px;
+            height: 50px;
+            background-color: #fbb034;
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.5px;
+            color: #505050;
+            border: none;
+        }
+    }
+}
+
+div#back-top{
+    display: none;
 }
